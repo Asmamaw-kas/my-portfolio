@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="myportifolio.css">
+   
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <a href="#" class="logo">
+            <img src="images/porti-logo.svg" alt="Portfolio Logo">
+            MyPortfolio
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="diagonal-bg"></div>
+        <div class="zigzag"></div>
+        <div class="home-content">
+            <h1>Hi, I'm Asmamaw Kassie</h1>
+            <p>"The only way to do great work is to love what you do." - Steve Jobs</p>
+            <div class="btn-group">
+                <a href="images/My Resume.pdf" target="_blank" class="btn">Download CV</a>
+                <a href="#contact" class="btn btn-outline">Hire Me</a>
+            </div>
+        </div>
+        <div class="home-image">
+            <img src="images/home.svg" alt="Profile Image">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="images/logo.png" alt="About Image">
+            </div>
+            <div class="about-text">
+                <h3>Web Developer & Designer</h3>
+                <p>I'm a passionate web developer with 5 years of experience creating beautiful, functional websites and applications. I specialize in front-end development with React and Vue.js, but I'm also practicing in back-end technologies.</p>
+                <p>My approach combines technical expertise with creative design thinking to deliver exceptional user experiences.</p>
+                <ul class="info-list">
+                    <li><strong>Name:</strong> Asmamaw Kassie</li>
+                    <li><strong>Email:</strong>leopardcode478@gmail.com</li>
+                    <li><strong>Phone:</strong> +251 921 338 306</li>
+                    <li><strong>Experience:</strong> 1+ Years</li>
+                    <li><strong>Freelance:</strong> Available</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card" style="animation-delay: 0.1s;">
+                <div class="project-image">
+                    <img src="images/furniture.png" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h3>E-commerce Website</h3>
+                    <p>A fully responsive e-commerce platform built with js and Node.js.</p>
+                    <div class="project-links">
+                        <a href="javascript:void(0);" onclick="showAlert('demo')">Live Demo</a>
+                        <a href="https://github.com/Asmamaw-kas/" target="_blank">View Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" style="animation-delay: 0.2s;">
+                <div class="project-image">
+                    <img src="images/portifolio.png" alt="Project 2">
+                </div>
+                <div class="project-info">
+                    <h3>Portfolio Template</h3>
+                    <p>A customizable portfolio template for creative professionals.</p>
+                    <div class="project-links">
+                        <a href="javascript:void(0);" onclick="showAlert('demo')">Live Demo</a>
+                        <a href="https://github.com/Asmamaw-kas/" target="_blank">View Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" style="animation-delay: 0.3s;">
+                <div class="project-image">
+                    <img src="images/juice.png" alt="Project 3">
+                </div>
+                <div class="project-info">
+                    <h3>delivery app</h3>
+                    <p>A modern e-commerce website for ordering fresh, cold-pressed juices with delivery tracking. Built with Vite + React.</p>
+                    <div class="project-links">
+                        <a href="javascript:void(0);" onclick="showAlert('demo')">Live Demo</a>
+                        <a href="https://github.com/Asmamaw-kas/" target="_blank">View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Let's Talk About Your Project</h3>
+                <p>Feel free to reach out if you're looking for a developer, have a question, or just want to connect.</p>
+                <ul class="contact-details">
+                    <li><i class="fas fa-map-marker-alt"></i> bole, Addis ababa, Ethiopia</li>
+                    <li><i class="fas fa-envelope"></i> leopardcode478@gmail.com</li>
+                    <li><i class="fas fa-phone"></i> +251921338308</li>
+                </ul>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/Asmamaw-kas"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.getElementById('header');
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Animate project cards on scroll
+        const projectCards = document.querySelectorAll('.project-card');
+        
+        function checkScroll() {
+            projectCards.forEach((card, index) => {
+                const cardTop = card.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                
+                if (cardTop < windowHeight - 100) {
+                    setTimeout(() => {
+                        card.style.opacity = '1';
+                    }, index * 100);
+                }
+            });
+        }
+        
+        window.addEventListener('scroll', checkScroll);
+        window.addEventListener('load', checkScroll);
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('nav ul li a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetSection = document.querySelector(targetId);
+                
+                window.scrollTo({
+                    top: targetSection.offsetTop - 80,
+                    behavior: 'smooth'
+                });
+            });
+        });
+        function showAlert(type) {
+  if (type === 'demo') {
+    alert('Demo is coming soon! Currently in development.');
+    
+  }
+}
+    </script>
+</body>
+</html>
